@@ -1,0 +1,1 @@
+export type CakeDesign = {shape:string;size:string;layers:string;flavour:string;filling:string;colour:string;finish:string;decorations:string[];message:string;occasion:string;date:string;time:string;location:string}

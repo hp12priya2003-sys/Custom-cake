@@ -1,0 +1,1 @@
+export default function SectionTitle({eyebrow,title,copy}:{eyebrow:string;title:string;copy?:string}){return <div className="max-w-2xl"><div className="eyebrow text-wine/70">{eyebrow}</div><h2 className="serif mt-3 text-5xl leading-[.95] tracking-tight md:text-7xl">{title}</h2>{copy&&<p className="mt-5 max-w-xl text-sm leading-7 text-black/55 md:text-base">{copy}</p>}</div>}

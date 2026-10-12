@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{--cream:#f8f3ec;--ink:#201816;--wine:#5c171a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:'DM Sans',sans-serif}::selection{background:#5c171a;color:#fff}
+.serif{font-family:'Playfair Display',serif}.eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:700}.grain{position:relative}.grain:after{content:'';position:absolute;inset:0;pointer-events:none;opacity:.035;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E")}.glass{background:rgba(255,255,255,.72);backdrop-filter:blur(18px);border:1px solid rgba(32,24,22,.08)}
